@@ -14,12 +14,8 @@ function test(team,points){
         guestPointsLocal+=points;
         guestPoints.innerText=guestPointsLocal
     }
-
     console.log(points)
-
-
 }
-
 
 function reset(){
     console.log("reset")
