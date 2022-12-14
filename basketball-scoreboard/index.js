@@ -1,17 +1,30 @@
-//let homePoints=document.getElementById()
+let homePoints=document.getElementById("home-points-el")
+let guestPoints=document.getElementById("guest-points-el")
+let homePointsLocal=0;
+let guestPointsLocal=0;
 
 function test(team,points){
     console.log("click")
     let teamf=team;
-    let pointsf=points
     if(team==0){
-        console.log("HOME")
+        homePointsLocal+=points;
+        homePoints.innerText=homePointsLocal
     }
     if(team==1){
-        console.log("GUEST")
+        guestPointsLocal+=points;
+        guestPoints.innerText=guestPointsLocal
     }
 
     console.log(points)
 
 
+}
+
+
+function reset(){
+    console.log("reset")
+    homePointsLocal=0;
+    guestPointsLocal=0;
+    homePoints.innerText=homePointsLocal;
+    guestPoints.innerText=guestPointsLocal;
 }
