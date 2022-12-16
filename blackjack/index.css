@@ -17,7 +17,7 @@ h1 {
 
 
 button {
-    color: #016f32;
+    color: #016f32; 
     width: 150px;
     background: goldenrod;
     padding-top: 5px;
@@ -25,5 +25,6 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
-    margin-top: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
