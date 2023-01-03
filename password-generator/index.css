@@ -19,3 +19,8 @@ h1{
     font-family: 'My Font';
     word-spacing: 100%;
 }
+
+
+.line {
+    border-bottom: 1px solid white;
+}
