@@ -1,26 +1,9 @@
 @font-face {
-    font-family: 'My Font';
-    src: url('fonts/Roboto-Thin.ttf') format('truetype');
-  }
-
-body {
-    margin: 0;
-    background-color: #222B30;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1{
-    font-size: 25px;
-}
-
-#subtitle{
-    font-size: 10px;
-    color:aliceblue;
-    font-family: 'My Font';
-    word-spacing: 100%;
-}
-
-
-.line {
-    border-bottom: 1px solid white;
-}
+    font-family: 'Modern Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Modern Sans'), url('fonts/modern-sans SANS.woff') format('woff');
+    }
+    body{
+        
+    }
