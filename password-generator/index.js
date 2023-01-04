@@ -2,5 +2,25 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
+const symbolsCheck = document.querySelector('#symbolsOption')
+const numberCheck = document.querySelector('#numberOption')
+const lengthValue = document.querySelector('#passwordLength')
+
+function GeneratePassword(){
+    console.log("button press")
+    if(symbolsCheck.checked){
+        console.log("symbols checked")
+    }
+    if(numberCheck.checked){
+        console.log("numbers checked")
+    }
+    if(parseInt(lengthValue.value)>parseInt(lengthValue.max)){
+        console.log(parseInt(lengthValue.max))
+    } else if(parseInt(lengthValue.value)<parseInt(lengthValue.min)){
+        console.log(parseInt(lengthValue.min))
+    }else{
+        console.log(parseInt(lengthValue.value))
+    }
+}
 
 

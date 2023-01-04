@@ -1,9 +1,71 @@
 @font-face {
-    font-family: 'Modern Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Modern Sans'), url('fonts/modern-sans SANS.woff') format('woff');
-    }
-    body{
-        
-    }
+    font-family: ModernSans;
+    src: url(ModernSans-Light.otf) format("opentype");
+}
+
+body{
+    background-color: #1B2B36;
+    color: aliceblue;
+    font-family: ModernSans;
+
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+#title2{
+    color:#2ED167
+}
+
+#subtitle{
+    font-family:'ModernSans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+button{
+    background-color: #2ED167;
+    border-radius: 15px;
+    font-family: ModernSans;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+
+#bottom{
+    display: flex;
+    border-top: 2px solid aliceblue;
+    width: 510px;
+    margin-top: 15px;
+    
+}
+
+#middle{
+    display:flex;
+}
+
+
+
+.passwordSlot {
+    
+    background-color: #283F4F;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 35px;
+    
+  }
+  

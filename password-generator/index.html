@@ -3,6 +3,30 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div id="top">
+      <h3>
+        <span id="title1">Generate a</span> <br />
+        <span id="title2">random password</span>
+      </h3>
+      <h5 id="subtitle">Never use an unsafe password again.</h5>
+
+      <div id="options">
+        <input type="checkbox" id="symbolsOption" /> Special Symbols
+        <input type="checkbox" id="numberOption" /> Numbers
+        <input type="number" min="5" max="20" id="passwordLength" value="15" />
+        Password length
+      </div>
+
+      <button onclick="GeneratePassword()" id="PasswordButton">
+        Generate Password
+      </button>
+    </div>
+
+    <div id="bottom">
+      <p id="password1" class="passwordSlot">Password 1</p>
+      <p id="password2" class="passwordSlot">Password 2</p>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
