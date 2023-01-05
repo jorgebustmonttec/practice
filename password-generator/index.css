@@ -45,14 +45,11 @@ button{
     border-top: 2px solid aliceblue;
     width: 510px;
     margin-top: 15px;
-    
 }
 
 #middle{
     display:flex;
 }
-
-
 
 .passwordSlot {
     
